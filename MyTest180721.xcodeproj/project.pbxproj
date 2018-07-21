@@ -97,12 +97,9 @@
 		2B2F3ACB2102D25900FC57F9 /* MyTest180721 */ = {
 			isa = PBXGroup;
 			children = (
-				2B2F3ACC2102D25900FC57F9 /* AppDelegate.swift */,
-				2B2F3ACE2102D25900FC57F9 /* ViewController.swift */,
-				2B2F3AD02102D25900FC57F9 /* Main.storyboard */,
-				2B2F3AD32102D25A00FC57F9 /* Assets.xcassets */,
-				2B2F3AD52102D25A00FC57F9 /* LaunchScreen.storyboard */,
-				2B2F3AD82102D25A00FC57F9 /* Info.plist */,
+				2B2F3AFC2103044300FC57F9 /* Resources */,
+				2B2F3AFB2103043700FC57F9 /* Storyboards */,
+				2B2F3AFA2103042100FC57F9 /* Sources */,
 			);
 			path = MyTest180721;
 			sourceTree = "<group>";
@@ -123,6 +120,65 @@
 				2B2F3AEE2102D25A00FC57F9 /* Info.plist */,
 			);
 			path = MyTest180721UITests;
+			sourceTree = "<group>";
+		};
+		2B2F3AFA2103042100FC57F9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2B2F3B002103051E00FC57F9 /* Shared */,
+				2B2F3AFF2103046500FC57F9 /* Models */,
+				2B2F3AFE2103045900FC57F9 /* Controllers */,
+				2B2F3AFD2103045100FC57F9 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		2B2F3AFB2103043700FC57F9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2B2F3AD02102D25900FC57F9 /* Main.storyboard */,
+				2B2F3AD52102D25A00FC57F9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2B2F3AFC2103044300FC57F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B2F3AD32102D25A00FC57F9 /* Assets.xcassets */,
+				2B2F3AD82102D25A00FC57F9 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2B2F3AFD2103045100FC57F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2B2F3AFE2103045900FC57F9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B2F3ACE2102D25900FC57F9 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2B2F3AFF2103046500FC57F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2B2F3B002103051E00FC57F9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2B2F3ACC2102D25900FC57F9 /* AppDelegate.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -431,7 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MyTest180721/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MyTest180721/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,7 +504,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MyTest180721/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MyTest180721/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
