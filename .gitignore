@@ -1,0 +1,1 @@
+curl https://www.gitignore.io/api/swift >> .gitignore
