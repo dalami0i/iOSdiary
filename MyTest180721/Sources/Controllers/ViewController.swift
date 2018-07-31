@@ -13,6 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let imageView: UIImageView = UIImageView()
+//        imageView.image =
+//        view.addSubview(imageView)
+//
+//        imageView.addConstraint([
+//            NSLayoutConstraint(ite: imageView,
+//                               attrivute: top, )])
         
     }
     
